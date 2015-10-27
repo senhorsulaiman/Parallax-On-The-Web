@@ -1,0 +1,81 @@
+.large-window
+
+	height: 640px
+	position: relative
+
+	
+	background: 
+		color: pink
+		image: url(/assets/images/model2.jpg)
+		position: top center
+		attachment: fixed
+	border-radius: 50%
+
+
+
+	.window-tint
+		position: absolute
+
+		background: 
+			color: transparentize( black,0.5)
+		top: 0
+		left: 0
+		bottom: 0
+		right: 0
+		border-radius: 50%
+		display: flex
+		justify-content: center
+		align-items: center
+
+
+	.promo-text
+		color: white
+		font:
+			wieght: 100
+			size: 50px
+
+
+
+		strong
+			display: block
+
+			font:
+				wieght: 300
+				size: 30px
+			text-align: center
+
+			span
+
+				font:
+					style: italic
+				color: rgba(255,255,255,0.4)
+		.cta
+			display: block
+			padding: 0.2em 0.1em
+			text-transform: uppercase
+			text-align: center
+			font-size: 18px
+			border: 1px solid rgba(255,255,255,0.4)
+			color: white
+			text-decoration: none
+				z-index: 99
+				
+			&:hover
+
+				background: white
+				color: black
+
+
+			
+
+
+
+
+@media (max-width: 640px)
+
+	.large-window
+		border-radius: 0%
+
+
+		.window-tint
+			border-radius: 0%

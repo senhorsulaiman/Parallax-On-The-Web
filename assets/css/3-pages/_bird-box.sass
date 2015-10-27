@@ -1,0 +1,80 @@
+
+header
+	z-index: 4
+
+.bird-box
+	height: 700px
+	background:
+		image: url(/assets/images/bird-bg.jpg)
+		size: auto 700px
+		attachment: fixed
+	position: relative
+	z-index: 3
+	overflow: hidden
+
+.fore-bird
+	width: 960px
+	height: 733px
+	background:
+		image: url(/assets/images/fore-bird.png)
+		repeat: no-repeat
+		position: bottom right
+	position: absolute
+	left: 50%
+	margin-left: -480px
+	margin-top: 450px
+
+.back-bird
+	width: 960px
+	height: 298px
+	background:
+		image: url(/assets/images/back-bird.png)
+		repeat: no-repeat
+		position: top left
+	position: absolute
+	left: 50%
+	margin-left: -480px
+
+.logo
+	width: 960px
+	hieght: 100px
+
+	position: absolute
+	top: 50%
+	margin-top: -50px
+	left: 50%
+	margin-left: -480px
+	text:
+		align: center
+		transform: uppercase
+
+
+	strong
+		display: block
+		font-size: 60px
+		margin-bottom: 5px
+		color: transparentize(white,0.3)
+
+
+	span
+		font-size: 30px
+		display: block
+		margin: 0px
+		color: transparentize(white,0.5)
+
+
+
+
+
+@media (max-width: 740px)
+
+	.fore-bird
+
+		display: none
+		
+
+	.back-bird
+		display: none
+		
+
+
