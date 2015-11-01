@@ -1,4 +1,4 @@
-DevTips-Starter-Kit (Jekyll Friendly)
+Parallax
 ===================
 
 Use this as a simple structure for a simple start to a simple site.
